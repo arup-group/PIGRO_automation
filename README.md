@@ -43,10 +43,12 @@ This repository contains files developed for the IiA project that automate Pigle
 8. Along with the " _piglet_input" Excel file and the Grasshopper script, a "Piglet_Output" folder will be created with two subfolders ("DIAGRAMS" and "JSON") and two .exe files. Do not modify them; they will be automatically used by the script.
 9. Once the "Turn ON to Run Piglet Analysis" toggle is green, click on the "Turn ON to Plot Piglet Charts" toggle. This will modify the Excel files in the "DIAGRAMS" folder. When this toggle turns green, enter the "DIAGRAMS" folder to review the Excel files containing the charts. The script generates one Excel document per iteration specified in the Input sheet.
 10. Now, review each Excel file, examine the results, and adjust chart filters if needed (default filters show all Load Cases and Piles).
-    **Tip:** Avoid modifying the default zoom in Excel sheets; scroll vertically or horizontally without zooming.
+
+     **Tip:** Avoid modifying the default zoom in Excel sheets; scroll vertically or horizontally without zooming.
 12. Once satisfied with the charts and ready to export, save and close all modified Excel files. Go back to the Piglet interface and click once on the last toggle "Turn ON to Export Piglet Charts." Wait; this step may take a few minutes depending on the number of iterations. The script will export the diagrams by automatically opening each Excel file and navigating through all pages. Wait until this process finishes, and the toggle turns green. The interface will indicate where the images of each diagram have been saved.
 13. Check the designated folder to ensure the export of all diagrams meets expectations.
 14. If you want to repeat the analysis or analyze new input Excel files, disable all four toggles in reverse order and select the "Browse" option to locate the path of the new input file.
+
     **Warning:** Ensure it is not located with the previously used input file to avoid data overwriting issues.
 
 # Next Steps:
