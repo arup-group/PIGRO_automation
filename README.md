@@ -6,9 +6,9 @@ This repository contains files developed for the IiA project that automate Pigle
 2. Install Rhino 7.
 3. Install Grasshopper plugins:
 	1. Right-click on the files located in the subfolder of “Piglet” named "gh plugins."
-  2. Click on "Unblock" -> Apply -> Ok.
-  3. Unzip the folders.
-  4. Move their contents to the following path: C:\Users\Name.Surname\AppData\Roaming\Grasshopper\Libraries.
+  	2. Click on "Unblock" -> Apply -> Ok.
+  	3. Unzip the folders.
+  	4. Move their contents to the following path: C:\Users\Name.Surname\AppData\Roaming\Grasshopper\Libraries.
 4. For file “huiinstall_1”:
   1. Right-click on the file "huiinstall_1".
   2. Click on "Arup - Request Run as Admin."
