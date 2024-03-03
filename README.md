@@ -10,9 +10,9 @@ This repository contains files developed for the IiA project that automate Pigle
   	3. Unzip the folders.
   	4. Move their contents to the following path: C:\Users\Name.Surname\AppData\Roaming\Grasshopper\Libraries.
 4. For file “huiinstall_1”:
-  1. Right-click on the file "huiinstall_1".
-  2. Click on "Arup - Request Run as Admin."
-  3. Wait for confirmation of the request and proceed with the installation until completion.
+  	1. Right-click on the file "huiinstall_1".
+  	2. Click on "Arup - Request Run as Admin."
+  	3. Wait for confirmation of the request and proceed with the installation until completion.
 
 # Excel Input Instructions:
 
