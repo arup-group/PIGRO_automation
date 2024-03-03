@@ -53,17 +53,17 @@ This repository contains files developed for the IiA project that automate Pigle
 
 # Next Steps:
 1. **Investigate Depth-Related Shear and Moment Issues:**
-   - Dive deeper into the issue of shear and moment related to depth, potentially by modifying the Earthworm plugin to obtain the relevant data and ensure the functionality of charts on the "T and M with Depth" page.
+  	 - Dive deeper into the issue of shear and moment related to depth, potentially by modifying the Earthworm plugin to obtain the relevant data and ensure the functionality of charts on the "T and M with Depth" page.
 
 2. **Earthworm Plugin on Arup Compute:**
-- Explore the possibility of making the Earthworm plugin available in Arup Compute for broader accessibility and usage.
+	- Explore the possibility of making the Earthworm plugin available in Arup Compute for broader accessibility and usage.
 
 3. **Expand Options with Iteration Filtering:**
-- Expand the available options of Piles, Ground and Load Cases, allowing for the ability to filter the iterations to be analysed.
+	- Expand the available options of Piles, Ground and Load Cases, allowing for the ability to filter the iterations to be analysed.
 
 4. **Alp Calibration Integration:**
-- Evaluate Alp compatibility and seamless incorporation for calibration within the workflow.
+	- Evaluate Alp compatibility and seamless incorporation for calibration within the workflow.
 
 5. **Integrate the Developed Workflow into AWF or TDA:**
-   - Integrate the developed workflow into platforms like AWF or TDA to elevate the level of automation. This will facilitate easier access to the developed tools and processes.
+  	 - Integrate the developed workflow into platforms like AWF or TDA to elevate the level of automation. This will facilitate easier access to the developed tools and processes.
 
