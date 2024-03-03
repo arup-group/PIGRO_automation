@@ -1,7 +1,7 @@
-#Piglet Automation
+# Piglet Automation
 This repository contains files developed for the IiA project that automate Piglet's input and output processes. It simplifies input files and automates data iterations for piles and soil types, generating charts essential for pile design and geotechnical reports.
 
-#General Instructions for Installation:
+# General Instructions for Installation:
 1. Save the "Piglet" folder to the C:\ directory. Do not modify any of its contents.
 2. Install Rhino 7.
 3. Install Grasshopper plugins:
@@ -14,7 +14,7 @@ This repository contains files developed for the IiA project that automate Pigle
   2. Click on "Arup - Request Run as Admin."
   3. Wait for confirmation of the request and proceed with the installation until completion.
 
-#Excel Input Instructions:
+# Excel Input Instructions:
 
 **Warnings:**
 - It is possible to change the beginning of the Excel input file name but always leave " _piglet_input" at the end (e.g., "24.02.01Project1_piglet_input").
@@ -32,7 +32,7 @@ This repository contains files developed for the IiA project that automate Pigle
 - All piles with the same Axial Capacity must have the same length within the same Option (e.g., 5 piles with Axial Capacity 5080, L= 23 m, 3 piles with 4000 Axial Capacity, L= 20 m, etc.).
 - On the "Armature MN" page, you can input up to a maximum of 6 Armatures, which will be applied to all iterations.
 
-#Instructions  for Starting a New Project:
+# Instructions  for Starting a New Project:
 1. Copy and paste the contents of the "to copy" subfolder into the folder you want to use for the new project. This folder will be used for processing data and saving diagrams.
 2. Open the input Excel file ending with "_piglet_input" and enter the project data following the instructions on the first page named "Instructions."
 3. Once data input is complete, save and close the file.
@@ -49,7 +49,7 @@ This repository contains files developed for the IiA project that automate Pigle
 13. If you want to repeat the analysis or analyze new input Excel files, disable all four toggles in reverse order and select the "Browse" option to locate the path of the new input file. 
 **Warning:** Ensure it is not located with the previously used input file to avoid data overwriting issues.
 
-#Next Steps:
+# Next Steps:
 1. **Investigate Depth-Related Shear and Moment Issues:**
    - Dive deeper into the issue of shear and moment related to depth, potentially by modifying the Earthworm plugin to obtain the relevant data and ensure the functionality of charts on the "T and M with Depth" page.
 
