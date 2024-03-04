@@ -59,6 +59,7 @@ def v3_export_image(workbook_file_name, directory):
 
     workbook.Close(SaveChanges=False, Filename=workbook_file_name)
     
+    
 
 # Ottieni il percorso della directory corrente (dove si trova il codice)
     
@@ -136,8 +137,8 @@ for file_ind, files in enumerate(corresponding_files):
         print(f"File non trovato: {json_directory}")
     except KeyError as e:
         print(f"La chiave '{e.args[0]}' non è presente nel file JSON.")
-    except json.JSONDecodeError as e:
-        print(f"Errore nel decodificare il file JSON: {e}")
+    #except json.JSONDecodeError as e:
+    #    print(f"Errore nel decodificare il file JSON: {e}")
     except Exception as ex:
         print(f"Si è verificato un errore: {ex}")
 
@@ -145,3 +146,6 @@ for file_ind, files in enumerate(corresponding_files):
     print( str(file_ind + 1) + " out of " + str(iterat_numb) + " iterations exported.")
 
 print("The diagrams have been exported here: " + str(diagrams_folder))
+
+app = win32com.client.Dispatch("Excel.Application")
+app.Quit()
