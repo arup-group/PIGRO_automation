@@ -56,6 +56,10 @@ This repository contains files developed for the IiA project that automate Pigle
 16. If you want to repeat the analysis or analyze new input Excel files, disable all four toggles in reverse order and select the "Browse" option to locate the path of the new input file.
 
     **Warning:** Ensure it is not located with the previously used input file to avoid data overwriting issues.
+## NOTE
+At the moment, the current script does not report the data and charts of the Moment and Shear related to Depth.
+This further step will be implemented in future versions of the tool.
+
 
 # Next Steps:
 1. **Investigate Depth-Related Shear and Moment Issues:**
