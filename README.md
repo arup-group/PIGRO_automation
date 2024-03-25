@@ -33,6 +33,7 @@ This repository contains files developed for the IiA project that automate Pigle
 - On the "Armature MN" page, you can input up to a maximum of 6 Armatures, which will be applied to all iterations.
 
 **Info:**
+
 ***Scope can be 1, 2 or 3.***
 1. : One degree of freedom, vertical loading (V) only.
 2. : three degrees of freedom, loading in x-z plane: V, Hx, Mxz.
