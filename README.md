@@ -42,12 +42,15 @@ This repository contains files developed for the IiA project that automate Pigle
 3: six degrees of freedom: V, Hx, Hy, Mxz, Myz, Mxy.
 
 ***Loading Type can be 1, 2, 3, 4 or -1:***
+
 -1: non-linear analysis, inputs are loads and moments
 1: rigid pile-cap, inputs are loads and moments
 2: rigid pile-cap, inputs are deflections and rotations
 3: flexible pile-cap, inputs are loads and moments
 4: flexible pile-cap, inputs are deflections and rotations
+
 ***Profile Switches can be 1 or 2:***
+
 1: results contain moment profiles only.
 2: results contain moment and lateral deflection profiles.
 
