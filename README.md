@@ -32,6 +32,28 @@ This repository contains files developed for the IiA project that automate Pigle
 - All piles with the same Axial Capacity must have the same length within the same Option (e.g., 5 piles with Axial Capacity 5080, L= 23 m, 3 piles with 4000 Axial Capacity, L= 20 m, etc.).
 - On the "Armature MN" page, you can input up to a maximum of 6 Armatures, which will be applied to all iterations.
 
+**Info:**
+
+***Scope can be 1, 2 or 3.***
+1. : One degree of freedom, vertical loading (V) only.
+2. : three degrees of freedom, loading in x-z plane: V, Hx, Mxz.
+3. : six degrees of freedom: V, Hx, Hy, Mxz, Myz, Mxy.
+
+***Loading Type can be 1, 2, 3, 4 or -1:***
+
+1. : rigid pile-cap, inputs are loads and moments
+2. : rigid pile-cap, inputs are deflections and rotations
+3. : flexible pile-cap, inputs are loads and moments
+4. : flexible pile-cap, inputs are deflections and rotations
+   
+  -1. : non-linear analysis, inputs are loads and moments
+
+***Profile Switches can be 1 or 2:***
+1. : results contain moment profiles only.
+2. : results contain moment and lateral deflection profiles.
+
+
+
 # Instructions  for Starting a New Project:
 1. Copy and paste the contents of the "to copy" subfolder into the folder you want to use for the new project. This folder will be used for processing data and saving diagrams.
 2. Open the input Excel file ending with "_piglet_input" and enter the project data following the instructions on the first page named "Instructions."
