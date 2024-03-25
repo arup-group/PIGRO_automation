@@ -34,9 +34,13 @@ This repository contains files developed for the IiA project that automate Pigle
 
 **Info:**
 ***Scope can be 1, 2 or 3.***
+
 1: One degree of freedom, vertical loading (V) only.
+
 2: three degrees of freedom, loading in x-z plane: V, Hx, Mxz.
+
 3: six degrees of freedom: V, Hx, Hy, Mxz, Myz, Mxy.
+
 ***Loading Type can be 1, 2, 3, 4 or -1:***
 -1: non-linear analysis, inputs are loads and moments
 1: rigid pile-cap, inputs are loads and moments
@@ -47,7 +51,6 @@ This repository contains files developed for the IiA project that automate Pigle
 1: results contain moment profiles only.
 2: results contain moment and lateral deflection profiles.
 
-![image](https://github.com/arup-group/piglet_automation/assets/108808277/236aec74-ccbf-4f81-b01b-aeb20f5e3af4)
 
 
 # Instructions  for Starting a New Project:
