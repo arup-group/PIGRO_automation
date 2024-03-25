@@ -34,12 +34,9 @@ This repository contains files developed for the IiA project that automate Pigle
 
 **Info:**
 ***Scope can be 1, 2 or 3.***
-
-1: One degree of freedom, vertical loading (V) only.
-
-2: three degrees of freedom, loading in x-z plane: V, Hx, Mxz.
-
-3: six degrees of freedom: V, Hx, Hy, Mxz, Myz, Mxy.
+1.: One degree of freedom, vertical loading (V) only.
+2.: three degrees of freedom, loading in x-z plane: V, Hx, Mxz.
+3.: six degrees of freedom: V, Hx, Hy, Mxz, Myz, Mxy.
 
 ***Loading Type can be 1, 2, 3, 4 or -1:***
 
