@@ -45,6 +45,7 @@ This repository contains files developed for the IiA project that automate Pigle
 2. : rigid pile-cap, inputs are deflections and rotations
 3. : flexible pile-cap, inputs are loads and moments
 4. : flexible pile-cap, inputs are deflections and rotations
+   
   -1. : non-linear analysis, inputs are loads and moments
 
 ***Profile Switches can be 1 or 2:***
