@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import openpyxl
 from openpyxl import load_workbook
 from openpyxl.utils import get_column_letter
 from openpyxl.utils import column_index_from_string
@@ -581,8 +582,11 @@ for file_ind, files in enumerate(corresponding_files):
         pile_main_info(pile_info, "K5")
 
         #QULT COMP E CULT TENS
-        qult_comp(list= pile_info, start_cell= "R5")
-
+        try:
+            qult_comp(list= pile_info, start_cell= "R5")
+        except:
+            pass
+        
         #numeri dei load cases nelle tabelle
         load_cases_numbers_to_excel(start_cell= "C43", num_lc = num_load, repetitions = 7, space = 14)
         load_cases_numbers_to_excel(start_cell= "CW43", num_lc = num_load, repetitions = 2, space= 26, gap=2, mode= "mt" )
