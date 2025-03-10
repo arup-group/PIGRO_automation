@@ -7,7 +7,7 @@ set path= C:\ARUP\proj\PIGROphase2\25.02.27\main_folder_test\PIGRO_Script
 
 
 REM Run python from venv.
-C:\ARUP\proj\PIGROphase2\25.02.27\.venv\Scripts\python.exe "C:\ARUP\proj\PIGROphase2\25.02.27\main_folder_test\test_excel_3.py"
+C:\ARUP\proj\PIGROphase2\25.02.27\.venv\Scripts\python.exe "C:\ARUP\proj\PIGROphase2\25.02.27\main_folder_test\PIGRO_automation.py"
 
 
 pause
