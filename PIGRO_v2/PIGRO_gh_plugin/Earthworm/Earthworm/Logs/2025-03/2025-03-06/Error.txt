@@ -1,0 +1,152 @@
+/********************************/
+Current TimeStamp:2025/03/06 11:30:17
+
+Exception Object:Earthworm.Grasshopper
+Exception Information:Object reference not set to an instance of an object.
+Method:System.String <SolveInstance>b__3_0(Grasshopper.Kernel.Types.IGH_Goo)
+Stack:
+   at Earthworm.Grasshopper.Components.PigletComponents.PigletFileComponent.<>c.<SolveInstance>b__3_0(IGH_Goo t) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PigletFileComponent.cs:line 80
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Earthworm.Grasshopper.Components.PigletComponents.PigletFileComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PigletFileComponent.cs:line 82
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 11:30:17
+
+Exception Object:Earthworm.Common
+Exception Information:One (or more) of the input lists is empty!
+Method:Int32 CheckLists(System.String, System.Collections.IList[])
+Stack:
+   at Earthworm.Common.ListHelper.CheckLists(String className, IList[] lists) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Common\ListHelper.cs:line 21
+   at Piglet.Core.Helpers.PigletParametersHelper.GetAllPigletLoadCases(List`1 lcIDList, List`1 vwList, List`1 hxList, List`1 mxzList, List`1 hyList, List`1 myzList, List`1 txyList, List`1 ltList) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Piglet.Core\Helpers\PigletParametersHelper.cs:line 25
+   at Earthworm.Grasshopper.Components.PigletComponents.LoadCasesComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\LoadCasesComponent.cs:line 107
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 11:30:17
+
+Exception Object:Earthworm.Common
+Exception Information:One (or more) of the input lists is empty!
+Method:Int32 CheckLists(System.String, System.Collections.IList[])
+Stack:
+   at Earthworm.Common.ListHelper.CheckLists(String className, IList[] lists) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Common\ListHelper.cs:line 21
+   at Piglet.Core.Helpers.PigletParametersHelper.GetAllPigletPileGroupGeometry(List`1 pIDList, List`1 xList, List`1 yList, List`1 sdList, List`1 bdList, List`1 elList, List`1 rxzList, List`1 ryzList, List`1 psxzList, List`1 psyzList, Int32 nLoadCases, List`1 aclList) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Piglet.Core\Helpers\PigletParametersHelper.cs:line 37
+   at Earthworm.Grasshopper.Components.PigletComponents.PileGroupGeometryComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PileGroupGeometryComponent.cs:line 125
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 11:31:02
+
+Exception Object:Earthworm.Grasshopper
+Exception Information:Object reference not set to an instance of an object.
+Method:System.String <SolveInstance>b__3_0(Grasshopper.Kernel.Types.IGH_Goo)
+Stack:
+   at Earthworm.Grasshopper.Components.PigletComponents.PigletFileComponent.<>c.<SolveInstance>b__3_0(IGH_Goo t) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PigletFileComponent.cs:line 80
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Earthworm.Grasshopper.Components.PigletComponents.PigletFileComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PigletFileComponent.cs:line 82
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 11:31:02
+
+Exception Object:Earthworm.Common
+Exception Information:One (or more) of the input lists is empty!
+Method:Int32 CheckLists(System.String, System.Collections.IList[])
+Stack:
+   at Earthworm.Common.ListHelper.CheckLists(String className, IList[] lists) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Common\ListHelper.cs:line 21
+   at Piglet.Core.Helpers.PigletParametersHelper.GetAllPigletLoadCases(List`1 lcIDList, List`1 vwList, List`1 hxList, List`1 mxzList, List`1 hyList, List`1 myzList, List`1 txyList, List`1 ltList) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Piglet.Core\Helpers\PigletParametersHelper.cs:line 25
+   at Earthworm.Grasshopper.Components.PigletComponents.LoadCasesComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\LoadCasesComponent.cs:line 107
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 11:31:02
+
+Exception Object:Earthworm.Common
+Exception Information:One (or more) of the input lists is empty!
+Method:Int32 CheckLists(System.String, System.Collections.IList[])
+Stack:
+   at Earthworm.Common.ListHelper.CheckLists(String className, IList[] lists) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Common\ListHelper.cs:line 21
+   at Piglet.Core.Helpers.PigletParametersHelper.GetAllPigletPileGroupGeometry(List`1 pIDList, List`1 xList, List`1 yList, List`1 sdList, List`1 bdList, List`1 elList, List`1 rxzList, List`1 ryzList, List`1 psxzList, List`1 psyzList, Int32 nLoadCases, List`1 aclList) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Piglet.Core\Helpers\PigletParametersHelper.cs:line 37
+   at Earthworm.Grasshopper.Components.PigletComponents.PileGroupGeometryComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PileGroupGeometryComponent.cs:line 125
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 12:07:10
+
+Exception Object:Earthworm.Grasshopper
+Exception Information:Object reference not set to an instance of an object.
+Method:System.String <SolveInstance>b__3_0(Grasshopper.Kernel.Types.IGH_Goo)
+Stack:
+   at Earthworm.Grasshopper.Components.PigletComponents.PigletFileComponent.<>c.<SolveInstance>b__3_0(IGH_Goo t) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PigletFileComponent.cs:line 80
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Earthworm.Grasshopper.Components.PigletComponents.PigletFileComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PigletFileComponent.cs:line 82
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 12:07:10
+
+Exception Object:Earthworm.Common
+Exception Information:One (or more) of the input lists is empty!
+Method:Int32 CheckLists(System.String, System.Collections.IList[])
+Stack:
+   at Earthworm.Common.ListHelper.CheckLists(String className, IList[] lists) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Common\ListHelper.cs:line 21
+   at Piglet.Core.Helpers.PigletParametersHelper.GetAllPigletLoadCases(List`1 lcIDList, List`1 vwList, List`1 hxList, List`1 mxzList, List`1 hyList, List`1 myzList, List`1 txyList, List`1 ltList) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Piglet.Core\Helpers\PigletParametersHelper.cs:line 25
+   at Earthworm.Grasshopper.Components.PigletComponents.LoadCasesComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\LoadCasesComponent.cs:line 107
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 12:07:10
+
+Exception Object:Earthworm.Common
+Exception Information:One (or more) of the input lists is empty!
+Method:Int32 CheckLists(System.String, System.Collections.IList[])
+Stack:
+   at Earthworm.Common.ListHelper.CheckLists(String className, IList[] lists) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Common\ListHelper.cs:line 21
+   at Piglet.Core.Helpers.PigletParametersHelper.GetAllPigletPileGroupGeometry(List`1 pIDList, List`1 xList, List`1 yList, List`1 sdList, List`1 bdList, List`1 elList, List`1 rxzList, List`1 ryzList, List`1 psxzList, List`1 psyzList, Int32 nLoadCases, List`1 aclList) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Piglet.Core\Helpers\PigletParametersHelper.cs:line 37
+   at Earthworm.Grasshopper.Components.PigletComponents.PileGroupGeometryComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PileGroupGeometryComponent.cs:line 125
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 12:07:24
+
+Exception Object:Earthworm.Grasshopper
+Exception Information:Object reference not set to an instance of an object.
+Method:System.String <SolveInstance>b__3_0(Grasshopper.Kernel.Types.IGH_Goo)
+Stack:
+   at Earthworm.Grasshopper.Components.PigletComponents.PigletFileComponent.<>c.<SolveInstance>b__3_0(IGH_Goo t) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PigletFileComponent.cs:line 80
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Earthworm.Grasshopper.Components.PigletComponents.PigletFileComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PigletFileComponent.cs:line 82
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 12:07:24
+
+Exception Object:Earthworm.Common
+Exception Information:One (or more) of the input lists is empty!
+Method:Int32 CheckLists(System.String, System.Collections.IList[])
+Stack:
+   at Earthworm.Common.ListHelper.CheckLists(String className, IList[] lists) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Common\ListHelper.cs:line 21
+   at Piglet.Core.Helpers.PigletParametersHelper.GetAllPigletLoadCases(List`1 lcIDList, List`1 vwList, List`1 hxList, List`1 mxzList, List`1 hyList, List`1 myzList, List`1 txyList, List`1 ltList) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Piglet.Core\Helpers\PigletParametersHelper.cs:line 25
+   at Earthworm.Grasshopper.Components.PigletComponents.LoadCasesComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\LoadCasesComponent.cs:line 107
+/********************************/
+
+/********************************/
+Current TimeStamp:2025/03/06 12:07:24
+
+Exception Object:Earthworm.Common
+Exception Information:One (or more) of the input lists is empty!
+Method:Int32 CheckLists(System.String, System.Collections.IList[])
+Stack:
+   at Earthworm.Common.ListHelper.CheckLists(String className, IList[] lists) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Common\ListHelper.cs:line 21
+   at Piglet.Core.Helpers.PigletParametersHelper.GetAllPigletPileGroupGeometry(List`1 pIDList, List`1 xList, List`1 yList, List`1 sdList, List`1 bdList, List`1 elList, List`1 rxzList, List`1 ryzList, List`1 psxzList, List`1 psyzList, Int32 nLoadCases, List`1 aclList) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Piglet.Core\Helpers\PigletParametersHelper.cs:line 37
+   at Earthworm.Grasshopper.Components.PigletComponents.PileGroupGeometryComponent.SolveInstance(IGH_DataAccess DA) in C:\Users\Joost.Gevaert\Source\Repos\earthworm\Earthworm.Grasshopper\Components\PigletComponents\PileGroupGeometryComponent.cs:line 125
+/********************************/
+
