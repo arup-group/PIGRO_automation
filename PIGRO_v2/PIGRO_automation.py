@@ -8,6 +8,8 @@ import re
 import numpy as np
 from collections import defaultdict
 
+import argparse
+
 
 
 def flatten_json(y, parent_key='', sep='.'):
@@ -328,7 +330,7 @@ def main(json_file, excel_file):
 
     ax.set_xlabel("Moment (kNm)")
     ax.set_ylabel("Axial Action (kN)")
-    ax.set_title("MN domain")
+    ax.set_title("MN domain", fontsize=12, fontweight='bold')
 
     ax.axhline(0, color='black', linewidth=1)
     ax.axvline(0, color='black', linewidth=1)
@@ -411,7 +413,7 @@ def main(json_file, excel_file):
 
         ax_b.set_xlabel("y (m)")
         ax_b.set_ylabel("x (m)")
-        ax_b.set_title(f"Combination {load_case_no} - Axial ction piles head (kN)")
+        ax_b.set_title(f"Combination {load_case_no} - Axial Action piles head (kN)", fontsize=12, fontweight='bold')
 
         x_min, x_max = ax_b.get_xlim()
         y_min, y_max = ax_b.get_ylim()
@@ -445,7 +447,7 @@ def main(json_file, excel_file):
 
     ax_p.set_xlabel("y (m)")
     ax_p.set_ylabel("x (m)")
-    ax_p.set_title("Piles Position")
+    ax_p.set_title("Piles Position", fontsize=12, fontweight='bold')
     ax_p.axhline(0, color='black', linewidth=1)
     ax_p.axvline(0, color='black', linewidth=1)
     ax_p.grid(True, linestyle='--', alpha=0.7)
@@ -530,7 +532,7 @@ def main(json_file, excel_file):
 
     ax_bar.set_ylabel("Axial Action (kN)")
     ax_bar.set_xlabel("Pile No.")
-    ax_bar.set_title("Axial Action pile heads for each load combination")
+    ax_bar.set_title("Axial Action pile heads for each load combination", fontsize=12, fontweight='bold')
 
     ax_bar.legend(title="Load case ID", bbox_to_anchor=(1.05, 1), loc='upper left')
     
@@ -569,7 +571,7 @@ def main(json_file, excel_file):
 
         ax_bar_T.set_ylabel("Shear Action (kN)")
         ax_bar_T.set_xlabel("Pile No.")
-        ax_bar_T.set_title("Shear Action pile heads for each load combination")
+        ax_bar_T.set_title("Shear Action pile heads for each load combination", fontsize=12, fontweight='bold')
 
         ax_bar_T.legend(title="Load case ID", bbox_to_anchor=(1.05, 1), loc='upper left')
         
@@ -827,7 +829,7 @@ def main(json_file, excel_file):
 
     ax_tn.set_xlabel("Shear (kN)")
     ax_tn.set_ylabel("Axial Action (kN)")
-    ax_tn.set_title("Ratio VN")
+    ax_tn.set_title("Ratio VN", fontsize=12, fontweight='bold')
     ax_tn.grid(True, linestyle='--', alpha=0.7)
     
     ax_tn.legend(title="Load case ID", bbox_to_anchor=(1.04, 1), loc='upper left', borderaxespad=0)
@@ -848,17 +850,33 @@ if __name__ == '__main__':
      
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
+    parser = argparse.ArgumentParser(description='Save input and work directory paths to a text file.')
+    parser.add_argument('-i', '--input', metavar='', required=True, help='Path to the input directory')
+    parser.add_argument('-w', '--work', metavar='', required=True, help='Path to the work directory')
+    args = parser.parse_args()
+
     excel_file = None
+
+    """
     for fname in os.listdir(script_dir):
         if fname.lower().endswith("pigro_input.xlsx"):
             excel_file = os.path.join(script_dir, fname)
             break
+    """
+
+    for fname in os.listdir(args.input):
+        if fname.lower().endswith("pigro_input.xlsx"):
+            excel_file = os.path.join(args.input, fname)
+            break
+
+
 
     if not excel_file:
         print("ERRORE: Nessun file Excel trovato che termini con 'pigro_input.xlsx' nella cartella dello script.")
         sys.exit(1)
 
-    pigro_output_dir = os.path.join(script_dir, "PIGRO_Output")
+    pigro_output_dir = os.path.join(args.work, "PIGRO_Output")
+
     if not os.path.isdir(pigro_output_dir):
         print("ERRORE: Non esiste la cartella 'PIGRO_Output' nella stessa cartella dello script.")
         sys.exit(1)
