@@ -1,5 +1,6 @@
 import os
 import argparse
+import shutil
 
 """
 # Ottieni la directory dello script in esecuzione
@@ -44,7 +45,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Percorso del file di output
-    output_file = os.path.join(script_dir, "input_path.txt")
+    output_file = os.path.join(args.input, "input_path.txt")
     
     # Se il file esiste già, lo elimina
     if os.path.exists(output_file):
@@ -52,5 +53,15 @@ if __name__ == "__main__":
     
     # Salva i percorsi nel file
     save_paths(args.input, args.work, output_file)
+    
+    source_file = os.path.join(script_dir, "PIGRO_Script.gh")
+    destination_file = os.path.join(args.input, "PIGRO_Script.gh")
+    
+    # Copia il file nella cartella di input
+    if os.path.exists(source_file):
+        shutil.copy(source_file, destination_file)
+        print(f"Il file '{source_file}' è stato copiato in '{destination_file}'")
+    else:
+        print(f"Attenzione: Il file '{source_file}' non esiste e non è stato copiato.")
     
     print(f"I percorsi sono stati salvati in {output_file}")
